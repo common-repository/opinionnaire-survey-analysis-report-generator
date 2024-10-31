@@ -1,0 +1,296 @@
+#sg_SubmitButton {
+	display: none;
+}
+body {
+	font-family: sans-serif;
+}
+td {
+	border: 0px dotted black;
+	border-collapse: collapse;
+	padding: 0px;
+}
+.legend {
+	padding: 0px;
+	border-collapse: collapse;
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-right: auto;
+	width: 600px;
+	text-align: center;
+	color: gray;
+	margin-bottom: 20px;
+}
+.legend tr {
+	height: 20px;
+	vertical-align: middle;
+}
+.pcmpc-con-key {
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid rgb(250,82,0);
+	width: 0;
+	height: 0;
+	display: inline-block;
+	position: relative;
+	right: -27px;
+	bottom: 1px;
+}
+
+.pcmpc-con-border {
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+	border-bottom: 13px solid rgb(250,82,0);
+	width: 0;
+	height: 0;
+	display: inline-block;
+}
+
+.pcmpc-pol-key {
+    width: 18px;
+    margin-bottom: -19px;
+    border: 1px solid black;
+    height: 18px;
+    background: rgb(28,51,87);
+}
+
+.pcmpc-ao-key {
+    width: 18px;
+    margin-bottom: -19px;
+    border: 1px solid black;
+    height: 18px;
+    background: rgb(130,35,47);
+}
+
+.opinionnaire-bar {
+	padding: 0px;
+	width: 600px;
+	margin-left: 30px;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+.opinionnaire-bar td {
+  padding: inherit !important;
+}
+
+.pcmpc-bar-spacer-mid {
+	width: 2px;
+}
+.pcmpc-bar-spacer-side {
+	width: 48px;
+}
+.pointer {
+	width: 600px;
+	padding: 0px;
+	margin-left: 30px;
+	margin-right: auto;
+	text-align: center;
+	border-collapse: collapse;
+	vertical-align: bottom;
+	table-layout: fixed;
+}
+
+.pointer td {
+  border: none !important;
+  padding: 0 !important;
+}
+
+.pcmpc-arrow-td {
+	width: 50px;
+}
+.pcmpc-arrow {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid rgb(250,82,0);
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2px;
+}
+.pol-graph {
+	border: 1px solid black;
+	text-align: right;
+	background-color: rgb(28,51,87);
+	color: white;
+	min-width: 29px;
+}
+table.opin-data {
+	padding: 5px;
+}
+table.opin-data tbody tr th,table.opin-data tbody tr td {
+	
+}
+td.opin-numeric {
+	text-align: right;
+}
+div.prime-question {
+	width: 850px;
+}
+h3.pol-label {
+	text-align: center;
+}
+
+div.bargraphs {
+	width: 600px;
+}
+
+.printable table tr td {
+  padding: 9px 12px 9px 16px;
+  vertical-align: middle;
+  position: relative;
+}
+
+td.pcmpc-bar-spacer-mid {
+  padding: inherit !important;
+  border:none !important;
+  text-align: inherit !important;
+}
+
+td.pcmpc-bar-spacer-side {
+  padding: inherit !important;
+  border:none !important;
+  text-align: inherit !important;
+}
+
+.printable table tr:nth-child(odd) {
+	background: #fff;
+}
+
+.printable table tr:nth-child(even) {
+  background: #F6F8FC;
+}
+
+.printable table tbody tr td {
+  border: 1px solid #DBDBDB;
+}
+
+.printable table tfoot tr td {
+  background: #E2E2E2;
+}
+
+.printable table {
+	border-collapse: collapse;
+}
+
+.printable table tr td.categorical {
+  text-align: left;
+}
+
+.printable table tr td.pc-rating {
+	min-width: 76px;
+}
+
+.printable table tbody tr td:nth-child(10) {
+  min-width: 100px;
+  text-align: left;
+}
+
+.opin-table-color {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .4;
+  z-index: 19;
+}
+
+.opin-table-text {
+	opacity: 1;
+	position: relative;
+	z-index: 20;
+}
+
+.bargraphs table tr:nth-child(odd) {
+  background: none !important;
+}
+
+.bargraphs table tr td {
+  border: none !important;
+}
+
+td.opin-table-total-rating {
+  text-align: left;
+}
+
+.above-pr-graph {
+	position: absolute;
+	z-index: 100;
+	margin-top: -70px;
+}
+
+.pr-graph-info-outer {
+	background-color: #ffffff;
+	width: 300px;
+	padding: 4px;
+	margin-bottom: 29px;
+	display: inline-block;
+	position: relative;
+	top: -20px;
+}
+
+.pr-graph-info-outer.inactive {
+	visibility: hidden;
+}
+
+.pr-graph-info-outer-spacer {
+	width: 309px;
+	margin-bottom: 29px;
+	display: inline-block;
+	height: 62px;
+}
+
+.pr-graph-above-middle-spacer {
+	display: inline-block;
+	width: 137px;
+}
+
+.pr-graph-info {
+	border: 1px #CCCCCC solid;
+	width: 278px;
+	background-color: #ffffff;
+	padding: 10px;
+}
+
+.pr-graph-legend {
+	position: relative;
+	display: inline-block;
+	margin-top: -14px;
+}
+
+.pr-graph-notation {
+	margin-top: 60px;
+	position: absolute;
+	z-index: 100;
+}
+
+.pr-graph-credentials {
+	margin-left: 143px;
+	position: relative;
+	top: -20px;
+}
+
+@media print {
+
+	html, body {
+		background: #fff;
+	}
+
+	.printable, .printable h1, .printable h2, .printable h3 {
+		display: block !important;
+		background: #fff;
+	}
+
+	#adminmenumain, #adminmenuback, #adminmenuwrap, #wp-toolbar, #wpadminbar, #surveyOn, #retrieve_survey_form h1, #retrieve_survey_form h2, #retrieve_survey_form h3, .no-print, #wpfooter, .printable input#submit, hr {
+		display: none;
+	}
+
+	#surveyOn {
+		display: none !important;
+	}
+
+	.page-break {
+		page-break-before: always;
+	}
+}
